@@ -1,84 +1,19 @@
-# SupportAI
+# SupportAI 🤖
 
-AI-powered customer support platform with knowledge-base RAG, conversation history, and support ticket management.
+> An intelligent customer support application designed to streamline user inquiries and provide automated, accurate responses.
 
-## Tech Stack
+**🚀 Live Demo:** support-ai-eight-phi.vercel.app
 
-- **Frontend:** React, Vite, Tailwind CSS, Axios
-- **Backend:** Node.js, Express.js, JWT
-- **Database:** PostgreSQL / Supabase
-- **AI:** LLM API with RAG
+## 📖 Overview
+SupportAI is an intelligent customer support application engineered to help teams streamline user inquiries and deliver quick, accurate solutions. Built with scalability and performance in mind, this application addresses the common bottlenecks of manual support systems by centralizing interactions and leveraging a robust, serverless backend.
 
-## Project Structure
+## ✨ Key Features
+* **Intelligent Inquiry Management:** Streamline customer support tickets and user interactions in a centralized interface.
+* **Responsive UI:** Clean, modern user interface optimized seamlessly for both desktop and mobile devices.
+* **Serverless Backend Architecture:** Built on top of a reliable cloud infrastructure to handle traffic spikes effortlessly.
+* **Secure Database Integration:** Utilizes Supabase with connection pooling for rapid, safe, and persistent data operations.
 
-```
-SupportAI/
-├── backend/
-│   ├── server.js
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   ├── services/
-│   ├── middleware/
-│   └── config/
-├── frontend/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── services/
-└── database/
-    └── schema.sql
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- PostgreSQL (or Supabase)
-
-### Setup
-
-1. Clone the repository and install dependencies:
-
-```bash
-npm run install:all
-```
-
-2. Copy environment variables:
-
-```bash
-cp .env.example .env
-```
-
-3. Create the database and run migrations:
-
-```bash
-psql -U postgres -d supportai -f database/schema.sql
-```
-
-4. Start development servers:
-
-```bash
-npm run dev
-```
-
-- Frontend: http://localhost:5173
-- Backend: http://localhost:5000
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register a new user |
-| POST | `/api/auth/login` | Login and receive JWT |
-| POST | `/api/chat` | Send a message to AI support |
-| GET | `/api/conversations` | List user conversations |
-| POST | `/api/tickets` | Create a support ticket |
-| GET | `/api/tickets` | List user tickets |
-
-## Deployment
-
-- Frontend → Vercel
-- Backend → Render
-- Database → Supabase
+## 🛠️ Tech Stack
+* **Frontend:** HTML, CSS, JavaScript, Tailwind CSS
+* **Backend / Database:** Supabase (PostgreSQL, Connection Pooling)
+* **Deployment:** Vercel
