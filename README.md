@@ -2,7 +2,7 @@
 
 > An intelligent customer support application designed to streamline user inquiries and provide automated, accurate responses.
 
-**🚀 Live Demo:** support-ai-eight-phi.vercel.app
+**🚀 Live Demo:** https://support-ai-eight-phi.vercel.app
 
 ## 📖 Overview
 SupportAI is an intelligent customer support application engineered to help teams streamline user inquiries and deliver quick, accurate solutions. Built with scalability and performance in mind, this application addresses the common bottlenecks of manual support systems by centralizing interactions and leveraging a robust, serverless backend.
