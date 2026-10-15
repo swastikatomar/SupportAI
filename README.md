@@ -14,6 +14,6 @@ SupportAI is an intelligent customer support application engineered to help team
 * **Secure Database Integration:** Utilizes Supabase with connection pooling for rapid, safe, and persistent data operations.
 
 ## 🛠️ Tech Stack
-* **Frontend:** HTML, CSS, JavaScript, Tailwind CSS
+* **Frontend:** React, Tailwind CSS
 * **Backend / Database:** Supabase (PostgreSQL, Connection Pooling)
 * **Deployment:** Vercel
